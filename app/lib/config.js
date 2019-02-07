@@ -150,6 +150,10 @@ module.exports = function(grunt, options, spec) {
           logo: {
               src: options.logoFile,
               dest: options.targetDir + '/images/' + path.basename(options.logoFile || '')
+          },
+          favicon: {
+              src: 'public/favicon.ico',
+              dest: options.targetDir + '/favicon.ico'
           }
       },
 

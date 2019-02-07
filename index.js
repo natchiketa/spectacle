@@ -170,6 +170,7 @@ module.exports = function (options) {
         if (opts.logoFile) {
             grunt.task.run('copy:logo')
         }
+        grunt.task.run('copy:favicon')
         grunt.task.run('templates')
         if (opts.developmentMode || opts.developmentModeLive) {
             grunt.task.run('develop')
