@@ -61,7 +61,8 @@ button:focus {
   padding-right: 1rem;
   padding-bottom: 2rem;
   border-right: 1px solid #eee;
-  background-color: #f6f6f6;
+  box-shadow: inset 10px 10px 360px #2d1902;
+  background-color: black;
   height: 100vh;
   overflow: auto;
   position: fixed;
